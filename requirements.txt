@@ -1,0 +1,14 @@
+# Core dependencies
+pypresence>=4.2.0
+
+# Optional dependencies for enhanced features
+# discord.py>=2.0.0  # Uncomment if you want bot features
+# requests>=2.25.0    # Uncomment for HTTP-based integrations
+# pillow>=8.0.0       # Uncomment for image processing
+
+# Development dependencies (install with pip install -e .[dev])
+# pytest>=6.0
+# pytest-cov>=2.0
+# black>=21.0
+# flake8>=3.8
+# mypy>=0.800
