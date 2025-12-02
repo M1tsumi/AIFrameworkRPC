@@ -23,7 +23,7 @@ def read_requirements():
 
 setup(
     name="ai-framework-rpc",
-    version="0.1.0",
+    version="0.2.0",
     author="AIFrameworkRPC Team",
     author_email="contact@aiframeworkrpc.com",
     description="A lightweight library for integrating Discord Rich Presence (RPC) with AI tools",
@@ -32,12 +32,11 @@ setup(
     url="https://github.com/yourusername/ai-framework-rpc",
     packages=find_packages(),
     classifiers=[
-        "Development Status :: 3 - Alpha",
+        "Development Status :: 4 - Beta",
         "Intended Audience :: Developers",
         "License :: OSI Approved :: Apache Software License",
         "Operating System :: OS Independent",
         "Programming Language :: Python :: 3",
-        "Programming Language :: Python :: 3.8",
         "Programming Language :: Python :: 3.9",
         "Programming Language :: Python :: 3.10",
         "Programming Language :: Python :: 3.11",
@@ -47,7 +46,7 @@ setup(
         "Topic :: Scientific/Engineering :: Artificial Intelligence",
         "Topic :: Software Development :: Libraries :: Python Modules",
     ],
-    python_requires=">=3.8",
+    python_requires=">=3.9",
     install_requires=read_requirements(),
     extras_require={
         "dev": [
